@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  color: #fffefe;
+}
+
+#logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 5;
+  color: rgb(245, 245, 9);
+}
+
+#logo span {
+  color: black;
+}
+
+.navbar-toggler span {
+  color: rgb(245, 245, 9);
+}
+
+.nav-item .nav-link {
+  color: black;
+  margin-right: 25px;
+  font-weight: 500;
+}
+
+.nav-item .nav-link:hover {
+  background-color: rgb(245, 245, 9);
+  color: rgb(170, 154, 154);
+  transition-timing-function: ease-in;
+  border-radius: 10%;
+}
+
+.btn1 {
+  background-color: rgb(245, 245, 9);
+  color: black;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(245, 245, 9);
+}
+.carousel img {
+  height: 90vh;
+
+}
+
+.home .content h4 {
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 2px 2px 1px black;
+  padding-bottom: 10px;
+}
+
+.home .content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: whitesmoke;
+  text-shadow: 2px 2px 1px black;
+  padding-bottom: 10px;
+}
+
+.changecontent::after {
+  content: " ";
+  color:  rgb(245, 245, 9);
+  text-shadow: 2px 2px 2px black;
+  animation: textChanger 30s infinite linear;
+}
+
+@keyframes textChanger {
+    0%{content: "India";}
+    10%{content: "United Kingdom";}
+    20%{content: "Italy";}
+    30%{content: "Mexico";}
+    40%{content: "France";}
+    50%{content: "Russia";}
+    60%{content: "South Africa";}
+    70%{content: "Japan";}
+    80%{content: "USA";}
+    90%{content: "Canada";}
+    100%{content: "Nepal";}
+    
+}
+.home .content p {
+  font-size: 15px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-shadow: 2px 2px 1px black;
+  padding-bottom: 10px;
+}
+
+.home .content .btn a{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    font-weight: 500;
+}
+
+
+@media (max-width:800px){
+    .home .content h4 {
+        color: whitesmoke;
+        font-size: 25;
+        font-weight: 350;
+        text-shadow: 2px 2px 1px black;
+        padding-bottom: 10px;
+      }
+      .home .content h1 {
+        font-size: 35;
+        font-weight: 500;
+        color: whitesmoke;
+        text-shadow: 2px 2px 1px black;
+        padding-bottom: 10px;
+      }
+      .home .content p {
+        font-size: 5;
+        font-weight: 500;
+        color: whitesmoke;
+        text-shadow: 2px 2px 1px black;
+        padding-bottom: 10px;
+      }
+      
+      .home .content .btn a{
+          text-decoration: none;
+          color:rgb(107, 99, 99);
+          font-weight: 500;
+      }
+}
+
+
+#book {
+    margin-top: 30px;
+    background-color: white;
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+
+  .main-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 2px 0.5px;
+    color: rgb(245, 245, 9);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .main-text h1 span {
+    color: black;
+  }
+
+  .book .card{
+    width: 100%;
+    box-shadow: 0px 10px black;
+  }
+
+  .book form input{
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px gray;
+  }
+
+  .book form .btn2{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(245, 245, 9);
+  color: black;
+  }
+
+  #packages{
+    margin-top: 30px;
+    background-color: white;
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin-bottom: 3%;
+  }
+
+  .packages .card-title h1{
+    font-size: 50px;
+        font-weight: 700;
+        text-shadow: 2px 0.5px;
+        color: rgb(245, 245, 9);
+        text-align: center;
+  }
+
+  .packages .btn a{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    font-weight: 500;
+}
+
+  .card:hover{
+    box-shadow:5px 5px 5px 5px grey;
+  }
+  .checked{
+    color:  rgb(245, 245, 9);
+  }
+.card h2{
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 2px 0.5px;
+    color: rgb(245, 245, 9);
+    margin-bottom: 15px;
+    text-align: center;
+}
+#services{
+    margin-top: 30px;
+    background-color: white;
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+.card h2 span{
+    color: black;
+}
+
+  .services .card i{
+    color:  rgb(245, 245, 9);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin: 10px;
+  }
+
+  .services .card-body p{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #gallery{
+    margin-top: 30px;
+    background-color: white;
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+
+  .gallery img{
+    border-radius: 10px;
+  }
+  .gallery img:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in;
+  }
+
+  .row .card-title h2{
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 2px 0.5px;
+    color: rgb(245, 245, 9);
+    margin-bottom: 15px;
+    text-align: center;
+}
+.row .card-title span{
+    color: black;
+}
+
+#about{
+    margin-top: 30px;
+    background-color: white;
+    padding-left: 50px; 
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+.about .card-body{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}  
+
+
+.footer{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer .container h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(245, 245, 9);
+    padding: 20px;
+    
+}
+.footer .container span{
+    color: white;
+}
+.footer .container p{
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.footer .container .socialmedia{
+    height: 20px;
+    color:  rgb(245, 245, 9);
+}
+.footer .container .socialmedia i:hover{
+    opacity: 0.5;
+    transform: scale(1.5);
+}
